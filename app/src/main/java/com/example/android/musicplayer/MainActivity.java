@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         Button playButton = findViewById(R.id.playButton);
         Button stopButton = findViewById(R.id.stopButton);
         Button pauseButton = findViewById(R.id.pauseButton);
-        Button decreaseVolButton = findViewById(R.id.decreaseVolButton);
         Button increaseVolButton = findViewById(R.id.increaseVolButton);
+        Button decreaseVolButton = findViewById(R.id.decreaseVolButton);
 
         final MediaPlayer mp = MediaPlayer.create(this, R.raw.heartmoving);
 
